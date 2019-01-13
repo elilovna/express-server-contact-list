@@ -1,0 +1,27 @@
+{
+    "name": "express-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prestart": "npm run build",
+        "start": "node dist/index.js",
+        "build": "rollup --config",
+        "watch": "rollup --config -w"
+    },
+    "author": "Pachito Marco Calabrese <pm.calabrese@gmail.com>",
+    "license": "ISC",
+    "module": "dist/index.esm.js",
+    "browser": "dist/index.umd.js",
+    "devDependencies": {
+        "rollup": "latest",
+        "rollup-plugin-commonjs": "^9.1.0",
+        "rollup-plugin-json": "^3.1.0",
+        "rollup-plugin-node-resolve": "^3.0.0",
+        "rollup-plugin-terser": "latest"
+    },
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}

@@ -1,6 +1,7 @@
-# Express server in ES6 for Node course in HYF
+# Express server in ES6 for Node course in HYF school.
 
-Server wrote in Express for handle contacts in contact list.
+Express server for handle contacts in a contact list.
+I wrote this software with the students in the Nodejs course in HYF.
 
 ## Install
 
